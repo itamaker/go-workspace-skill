@@ -1,20 +1,20 @@
 {
-  "name": "itamaker-go-workspace-skills",
+  "name": "itamaker-go-workspace-skill",
   "owner": {
     "name": "Jonny"
   },
   "metadata": {
     "description": "Reusable Go workspace skill from itamaker",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
-      "name": "itamaker-go-workspace-skills",
+      "name": "itamaker-go-workspace-skill",
       "description": "Manage configurable multi-repo Go workspaces from a workspace config file",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/go-workspace-skills"
+        "./skills/go-workspace-skill"
       ]
     }
   ]

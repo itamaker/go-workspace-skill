@@ -38,9 +38,7 @@ Each repo object requires:
 - `sync [repo...]`: If no repo names are provided, sync every configured repository. If repo names are provided, each name must be present in the config.
 - `build`: Run `go build ./...` in every Go project directory.
 - `test`: Run `go test ./...` in every Go project directory.
+- `list-repos [--format lines|shell|json]`: Print every configured repo's `name`. `lines` (default) is newline-separated, `shell` is space-separated, `json` is a JSON array.
+- `list-projects [--format lines|shell|json]`: Same as `list-repos`, but filtered to repos where `go_project` is true.
 - `clean --force`: Delete every configured repository directory from the workspace. Treat this as destructive.
-- `init-config`: Write `assets/workspace.example.json` into the workspace as a starting point.
-
-## Current Repository
-
-This repository uses its own workspace config at `/Users/jonny/Documents/code/github/.go-workspace.json`.
+- `init-config [--output PATH] [--force]`: Write `assets/workspace.example.json` into the workspace as a starting point. Defaults to `<root>/.go-workspace.json`; `--output` writes elsewhere; `--force` overwrites an existing file (the command fails otherwise).

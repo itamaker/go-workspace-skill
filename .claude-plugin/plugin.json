@@ -1,5 +1,5 @@
 {
-  "name": "go-workspace-skills",
+  "name": "go-workspace-skill",
   "description": "Manage configurable multi-repo Go workspaces",
-  "version": "1.0.0"
+  "version": "1.1.0"
 }
