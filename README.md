@@ -1,5 +1,7 @@
 # go-workspace-skill
 
+> **Moved.** The skill in this repository now lives in [itamaker/skills](https://github.com/itamaker/skills/tree/main/skills/dev/go-workspace-skill), together with my other skills. Install from there: `npx skills@latest add itamaker/skills --skill=go-workspace-skill`.
+
 Standalone agent skill for configurable multi-repo Go workspaces.
 
 This repository is structured for the open `skills` installer ecosystem and contains a single skill: `go-workspace-skill`.
